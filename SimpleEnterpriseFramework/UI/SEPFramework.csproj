@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\login.png" />
+    <None Remove="Views\logo3.png" />
+    <None Remove="Views\pngwing.com %282%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.4.0-ci32-ci32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\IoC\IoC.csproj" />
+    <ProjectReference Include="..\Membership\Membership_v2.csproj" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Resource Include="Images\login.png" />
+    <Resource Include="Views\login.png" />
+    <Resource Include="Views\logo3.png" />
+  </ItemGroup>
+
+</Project>
