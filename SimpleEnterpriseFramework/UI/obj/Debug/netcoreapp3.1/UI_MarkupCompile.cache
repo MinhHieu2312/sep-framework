@@ -1,0 +1,20 @@
+﻿UI
+
+
+winexe
+C#
+.cs
+D:\Desigin pattern\FinalSEP\simple_enterprise_framework\SimpleEnterpriseFramework\UI\obj\Debug\netcoreapp3.1\
+UI
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+D:\Desigin pattern\FinalSEP\simple_enterprise_framework\SimpleEnterpriseFramework\UI\App.xaml
+53520367
+
+201381026005
+216236069155
+Forms\CreateForm.xaml;Forms\ReadForm.xaml;Forms\UpdateForm.xaml;Views\ConnectDatabaseWindow.xaml;Views\LoginWindow.xaml;
+
+False
+
